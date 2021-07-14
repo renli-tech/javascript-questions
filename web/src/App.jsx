@@ -3,7 +3,9 @@ import Routes from "./Routes.jsx"
 
 const App = () => {
   return (
-   <Routes/>
+    <div className="w-screen h-screen overflow-x-hidden bg-githubTheme-black text-white">
+      <Routes/>
+    </div>
   )
 }
 
