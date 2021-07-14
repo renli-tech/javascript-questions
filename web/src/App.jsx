@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Routes from "./Routes.jsx"
 
 const App = () => {
   return (
-    <div className="bg-red-900 p-32">
-      
-    </div>
+   <Routes/>
   )
 }
 
