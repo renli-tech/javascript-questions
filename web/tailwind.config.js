@@ -10,7 +10,7 @@ module.exports = {
           blue300:"#26358C",
           black: "#1D2126",
           green: "#327330",
-          yellow : "FFD600"
+          yellow : "#FFD600"
         }
       }
     },
