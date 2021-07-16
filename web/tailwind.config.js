@@ -9,12 +9,13 @@ module.exports = {
           blue200:"#2561D9",
           blue300:"#26358C",
           black: "#1D2126",
-          green: "#327330"
+          green: "#327330",
+          yellow : "FFD600"
         }
       }
     },
   },
-  variants: {
+  variants: { 
     extend: {},
   },
   plugins: [],
