@@ -26,7 +26,6 @@ const Options = () => {
   return (
           <div className="md:row-span-3 col-span-4 md:col-span-2 py-4 h-full bg-githubTheme-blue300 bg-opacity-5 flex items-center justify-center  rounded-md px-5 text-gray-300">
         <RadioGroup value={selected} onChange={setSelected} className="w-full mx-2">
-          <RadioGroup.Label className="sr-only">Server size</RadioGroup.Label>
           <div className="space-y-4">
             {plans.map((plan) => (
               <RadioGroup.Option
@@ -50,7 +49,6 @@ const Options = () => {
                       <div className="flex items-center">
                         <div className="text-lg">
                           <RadioGroup.Label
-                            as="p"
                             className={`font-medium capitalize`}
                           >
                             <span className="text-githubTheme-blue200">{plan.option} </span>{` : ${plan.name}`}

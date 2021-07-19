@@ -2,8 +2,8 @@ import { Disclosure, Transition } from '@headlessui/react'
 
 const Answer = ({ answer }) => {
     return (
-        <div className="md:row-span-2 col-span-4 md:col-span-2 max-h-full bg-githubTheme-blue300 bg-opacity-5  rounded-md p-2 mb-5">
-            <div className="w-full px-4 pt-4">
+        <div className="md:row-span-2 col-span-4 md:col-span-2 max-h-full bg-githubTheme-blue300 bg-opacity-5 rounded-md p-2">
+            <div className="w-full px-4 py-3">
         <Disclosure>
           {({ open }) => (
             <>

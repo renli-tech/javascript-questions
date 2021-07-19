@@ -23,6 +23,8 @@ const name = 'Lydia';
 
 name.giveLydiaPizza();
 
+Repeating 😁
+
 String.prototype.giveLydiaPizza = () => {
     return 'Just give Lydia pizza already!';
 };
@@ -30,7 +32,18 @@ String.prototype.giveLydiaPizza = () => {
 const name = 'Lydia';
 
 name.giveLydiaPizza();
-  
+
+Repeating 😁
+
+String.prototype.giveLydiaPizza = () => {
+    return 'Just give Lydia pizza already!';
+};
+
+const name = 'Lydia';
+
+name.giveLydiaPizza();
+
+Repeating 😁
                 `}
             </Code>
         </div>
