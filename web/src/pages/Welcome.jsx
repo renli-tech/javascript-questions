@@ -22,14 +22,14 @@ const Welcome = () => {
 
             <div className="flex justify-center items-center my-10">
                 <Card>
-                    <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0 text-githubTheme-black">
+                    <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0 text-gray-900">
                         <img className="w-32 h-32 rounded-full mx-auto object-cover mt-6 ring-4 ring-gray-500 ring-opacity-20" src="https://avatars.githubusercontent.com/u/29451794?v=4" alt="" width="384" height="512"/>
                         <div className="pt-6 lg:p-8 text-center md:text-left space-y-4">
                             <blockquote>
                             <p className="md:text-lg text-md font-semibold">
-                                <span className="font-extrabold text-githubTheme-black text-2xl">“ </span>
+                                <span className="font-extrabold text-gray-900 text-2xl">“ </span>
                                 I post multiple choice JavaScript questions on my Instagram stories, which I'll also post here! Last updated: June 12th From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview! 💪 🚀 I update this repo regularly with new questions. I added the answers in the collapsed sections below the questions, simply click on them to expand it. It's just for fun, good luck! ❤️ Feel free to reach out to me! 😊Instagram || Twitter || LinkedIn || Blog
-                                <span className="font-extrabold text-githubTheme-black text-2xl"> ”</span>
+                                <span className="font-extrabold text-gray-900 text-2xl"> ”</span>
                             </p>
                             </blockquote>
                             <figcaption className="font-medium">
